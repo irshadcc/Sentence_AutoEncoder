@@ -23,14 +23,14 @@ Dataset can be easily loaded from
 
     ```python
     tokenizer = Tokenizer()
-    data = tokenizer.process_text(file_names= <list of filenames> )
+    data = tokenizer.process_text(file_names= <list of : filenames> )
 
     ```
 2. From a large text
 
     ```python
     tokenizer = Tokenizer()
-    data = tokenizer.process_text(text=<str of the text>)
+    data = tokenizer.process_text(text=<str : text>)
     ```
 
 3. Using a custom Function
