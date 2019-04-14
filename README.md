@@ -41,4 +41,17 @@ Dataset can be easily loaded from
 ### Make sure to reshape the data into shape (batch_size,seq_length)
 ##### You can also save the tokenizer as pickle 
 
+## AutoEncoder Model
+
+![](./model_summary.png)
+
+### To load encoder Model and generate latent representation
+
+```python
+
+encoder = keras.models.load_model("sentence_encoder.h5")
+encoder.predict(<(batch_length,seq_length)>)
+
+```
+
 
